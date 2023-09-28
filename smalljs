@@ -1,0 +1,13 @@
+/*window.addEventListener('click', function(event) {
+  if (event.target.matches('button, a')) {
+    var elementId = event.target.id;
+    console.log(elementId);
+  }
+});*/
+
+window.addEventListener('change', function(event) {
+  if (event.target.matches('input, select')) {
+    var elementId = event.target.id;
+    console.log(elementId);
+  }
+});
